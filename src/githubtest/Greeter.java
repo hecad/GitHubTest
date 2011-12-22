@@ -12,7 +12,9 @@ public class Greeter {
         this.message = message;
     }
 
-    public void greet() {
-        System.out.println(message);
+    public void greet(int times) {
+        for (int i = 0; i < times; i++) {
+            System.out.println(message);
+        }
     }
 }

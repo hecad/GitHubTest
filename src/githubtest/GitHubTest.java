@@ -11,6 +11,6 @@ public class GitHubTest {
      */
     public static void main(String[] args) {
         Greeter greeter = new Greeter("GitHub Test!");
-        greeter.greet();
+        greeter.greet(5);
     }
 }
