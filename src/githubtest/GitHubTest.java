@@ -10,7 +10,7 @@ public class GitHubTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Greeter greeter = new Greeter("GitHub Test!");
+        Greeter greeter = new Greeter("GitHub Test!", "Goodbye!");
         greeter.greet(5);
         greeter.sayGoodbye();
     }

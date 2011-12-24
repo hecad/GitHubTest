@@ -6,19 +6,21 @@ package githubtest;
  */
 public class Greeter {
 
-    private final String message;
+    private final String helloMessage;
+    private final String goodbyeMessage;
 
-    public Greeter(String message) {
-        this.message = message;
+    public Greeter(String helloMessage, String goodbyeMessage) {
+        this.helloMessage = helloMessage;
+        this.goodbyeMessage = goodbyeMessage;
     }
 
     public void greet(int times) {
         for (int i = 0; i < times; i++) {
-            System.out.println(message);
+            System.out.println(helloMessage);
         }
     }
-    
-    public void sayGoodbye(){
-        System.out.println("Goodbye");
+
+    public void sayGoodbye() {
+        System.out.println(goodbyeMessage);
     }
 }
