@@ -17,4 +17,8 @@ public class Greeter {
             System.out.println(message);
         }
     }
+    
+    public void sayGoodbye(){
+        System.out.println("Goodbye");
+    }
 }
